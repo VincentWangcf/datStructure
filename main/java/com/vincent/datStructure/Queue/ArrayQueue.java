@@ -25,7 +25,7 @@ public class ArrayQueue {
                     int val = scanner.nextInt();
                     queue.addQueue(val);
                     break;
-                case 'g':  //   取数据
+                case 'g':  //   取数据   demo
                     try{
 
                         int queue1 = queue.getQueue();
@@ -50,7 +50,6 @@ public class ArrayQueue {
             }
         }
         System.out.println("程序退出");
-
     }
 
     private int maxSize;
